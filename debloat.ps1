@@ -1,17 +1,30 @@
+<#
+    .NOTES
+    Author      : Aaron Warwick
+    GitHub      : https://github.com/awarwick-mscst/debloat
+    Version 0.0.1
+#>
 #  Debloat Apps via winget with command line prompt
-#  Author: Aaron Warwick
 #  Date: 16-September-2022
 #  Company: StarTech Computing Inc. 
-#
 #  Dependency: winget
 #  Running the command prompt or the powershell as administrator is desired but not required,
 #    this might reduce user interaction by not having to press OK for administrator access
-#
 $confirmation = Read-Host "Are you Sure You Want To debloat: y to debloat"
 if ($confirmation -eq 'y') {
-  Write-Output "Debloating apps"
 
-  #  app black list
+    Write-host "   _____ _______ _____ " 
+    Write-host "  / ____|__   __/ ____|"
+    Write-host " | (___    | | | |     "
+    Write-host "  \___ \   | | | |     "
+    Write-host "  ____) |  | | | |____ "
+    Write-host " |_____/   |_|  \_____|"
+    Write-Host " StarTech Computing Inc"
+                         
+  Write-host "Debloating apps"
+  #=======================================================================
+  #  app removal list
+  #=======================================================================
   $apps = @(
     "Microsoft.BingWeather_8wekyb3d8bbwe"
     #"Microsoft.WindowsPCHealthCheck"
@@ -36,7 +49,6 @@ if ($confirmation -eq 'y') {
     "Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe"
     #"Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe"
   )
-
   Foreach ($app in $apps)
   {
     Write-host "Uninstalling:" $app

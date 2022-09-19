@@ -3,7 +3,13 @@
 #  Date: 16-Sept-2022
 #  Company: Startech Computers Inc
 #  Dependency: winget
-
+Write-host "   _____ _______ _____ " 
+Write-host "  / ____|__   __/ ____|"
+Write-host " | (___    | | | |     "
+Write-host "  \___ \   | | | |     "
+Write-host "  ____) |  | | | |____ "
+Write-host " |_____/   |_|  \_____|"
+Write-Host " StarTech Computing Inc"
 Write-Output "Debloating apps"
 
   #  app black list
