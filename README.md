@@ -1,9 +1,9 @@
-#Windows Debloat Utility
+# Windows Debloat Utility
 This is an automated PowerShell script that will remove commonly removed apps
 dependents: winget
 
-#Overview
+## Overview
 
-#Issues
+## Issues
 
-#Contribute Code
+## Contribute Code
