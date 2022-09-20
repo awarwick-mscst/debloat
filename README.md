@@ -6,4 +6,4 @@ dependents: winget
 
 #Issues
 
-#Contribue Code
+#Contribute Code
