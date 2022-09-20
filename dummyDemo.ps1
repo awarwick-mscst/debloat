@@ -1,0 +1,8 @@
+Write-host "   _____ _______ _____ " 
+Write-host "  / ____|__   __/ ____|"
+Write-host " | (___    | | | |     "
+Write-host "  \___ \   | | | |     "
+Write-host "  ____) |  | | | |____ "
+Write-host " |_____/   |_|  \_____|"
+Write-Host " StarTech Computing Inc"
+Write-Output "Debloating apps"
